@@ -24,102 +24,102 @@ const Skills = () => {
     <TransitionEffect />
     <main className='flex w-full flex-col items-center justify-center'>
       <Layout className='pt-16'>
-        <AnimatedText text="Talent Works, Genius Creates" className='mb-16'/>
+        <AnimatedText text="Talent Works, Genius Creates" className='mb-16 md:text-5xl sm:text-4xl xs:text-3xl'/>
         <div className='grid w-full grid-cols-8 gap-16'>
           <div className='col-span-3 flex flex-col items-start justify-start'>
-            <h1 className='mb-4 text-4xl font-bold uppercase text-dark/75 text-orange-500'>Skills</h1>
-            <h2 className='text-3xl text-blue-500'>What I can do</h2>
+            <h1 className='mb-4 text-4xl font-bold uppercase text-dark/75 text-orange-500 md:text-3xl sm:text-2xl xs:text-xl'>Skills</h1>
+            <h2 className='text-3xl text-blue-500 md:text-2xl sm:text-xl xs:text-base'>What I can do</h2>
             </div>
         </div>
 
-        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+        <div className='grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 gap-8'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono'>HTML</h3>
+                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>HTML</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono'>CSS</h3>
+                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>CSS</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono'>JavaScript</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>JavaScript</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono'>React</h3>
+                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>React</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono'>Tailwind</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>Tailwind</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Node} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono'>Node</h3>
+                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>Node</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Mongo} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono'>MongoDB</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>MongoDB</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono'>Github</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>Github</h3>
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono'>Next</h3>
+                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>Next</h3>
               </div>
             </div>
           </div>

@@ -135,8 +135,8 @@ const projects = () => {
                     summary="This is my personal portfolio which was built using Next JS, Tailwind CSS & Framer Motion, etc.
                     The portfolio consists of home page followed by about, skills and projects pages respectively.
                     Every single page is attached with animated presence and dark mode capabilities along with brief explanations."
-                    link="https://github.com/Gurudeep25/fullstack-web3"
-                    github="https://github.com/Gurudeep25/fullstack-web3"
+                    link="https://github.com/Gurudeep25/next-portfolio"
+                    github="https://github.com/Gurudeep25/next-portfolio"
                     type="Featured Project" />
                 </div>
             </div>
