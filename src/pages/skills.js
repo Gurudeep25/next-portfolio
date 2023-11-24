@@ -12,6 +12,12 @@ import Github from 'public/images/github1.png';
 import Mongo from 'public/images/mongo.png';
 import NextJS from 'public/images/nextjs.png';
 import Node from 'public/images/node.png';
+import Poly from 'public/images/polygon1.jpg'
+import Meta from 'public/images/metamask.jpg'
+import Ipfs from 'public/images/ipfs.jpg'
+import Graph from 'public/images/graph.jpg'
+import Express from 'public/images/express1.jpg'
+import Web3 from 'public/images/web3js.jpg'
 import TransitionEffect from '../components/TransitionEffect'
 
 const Skills = () => {
@@ -32,14 +38,14 @@ const Skills = () => {
             </div>
         </div>
 
-        <div className='grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 gap-8'>
+        <div className='grid grid-cols-3 lg:grid-cols-4 md:grid-cols-2 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>HTML</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>HTML</h3>
               </div>
             </div>
           </div>
@@ -49,7 +55,7 @@ const Skills = () => {
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>CSS</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>CSS</h3>
               </div>
             </div>
           </div>
@@ -59,7 +65,7 @@ const Skills = () => {
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>JavaScript</h3>
+                <h3 className='text-gray-500 text-6xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>JS</h3>
               </div>
             </div>
           </div>
@@ -69,7 +75,7 @@ const Skills = () => {
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>React</h3>
+                <h3 className='text-gray-500 text-6xl font-mono xl:text-5xl lg:text-2xl md:text-2xl sm:text-xl'>React</h3>
               </div>
             </div>
           </div>
@@ -79,7 +85,7 @@ const Skills = () => {
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>Tailwind</h3>
+                <h3 className='text-gray-500 text-5xl font-mono 2xl:text-4xl xl:text-3xl lg:text-xl md:text-lg sm:text-base'>Tailwind</h3>
               </div>
             </div>
           </div>
@@ -89,7 +95,7 @@ const Skills = () => {
                 <Image src={Node} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>Node</h3>
+                <h3 className='text-gray-500 text-6xl font-mono xl:text-5xl lg:text-2xl md:text-xl sm:text-lg'>Node</h3>
               </div>
             </div>
           </div>
@@ -99,7 +105,7 @@ const Skills = () => {
                 <Image src={Mongo} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>MongoDB</h3>
+                <h3 className='text-gray-500 text-5xl font-mono xl:text-4xl lg:text-xl md:text-lg sm:text-base'>MongoDB</h3>
               </div>
             </div>
           </div>
@@ -109,7 +115,7 @@ const Skills = () => {
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-6xl font-mono lg:text-2xl md:text-xl sm:text-base'>Github</h3>
+                <h3 className='text-gray-500 text-5xl font-mono xl:text-4xl lg:text-xl md:text-lg sm:text-base'>Github</h3>
               </div>
             </div>
           </div>
@@ -119,10 +125,71 @@ const Skills = () => {
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3 className='text-gray-500 text-7xl font-mono lg:text-3xl md:text-2xl sm:text-xl'>Next</h3>
+                <h3 className='text-gray-500 text-6xl font-mono xl:text-5xl lg:text-2xl md:text-xl sm:text-lg'>Next</h3>
               </div>
             </div>
           </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Express} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3 className='text-gray-500 text-5xl font-mono xl:text-4xl lg:text-xl md:text-lg sm:text-base'>Express</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Poly} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3 className='text-gray-500 text-5xl font-mono 2xl:text-4xl xl:text-3xl lg:text-xl md:text-lg sm:text-base'>Polygon</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Web3} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3 className='text-gray-500 text-6xl font-mono xl:text-5xl lg:text-xl md:text-lg sm:text-base'>Web3 JS</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Meta} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3 className='text-gray-500 text-5xl font-mono 2xl:text-4xl xl:text-3xl lg:text-xl md:text-lg sm:text-base'>Metamask</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Ipfs} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3 className='text-gray-500 text-6xl font-mono xl:text-5xl lg:text-2xl md:text-xl sm:text-lg'>IPFS</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 md:p-4 sm:p-3 xs:p-2'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Graph} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3 className='text-gray-500 text-6xl font-mono 2xl:text-5xl xl:text-4xl lg:text-2xl md:text-xl sm:text-lg'>Graph</h3>
+              </div>
+            </div>
+          </div>
+
         </div>
        </Layout>
     </main>
